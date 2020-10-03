@@ -56,3 +56,35 @@ console.log(fruta.nome); //Imprime o atributo "nome" da variável "fruta"
 console.log(frutas[0].nome); //Imprime o elemento "nome" do primeiro elemento da array "frutas"
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+//Aula 03
+//Variáveis
+//var idade = 18;
+//var idade = prompt("Qual sua idade: ");
+var count = 0;
+var count2;
+var d = new Date();
+
+//Scripts
+/*if (idade >= 18) {
+    alert("Maior de idade"); 
+} else {
+    alert("Menor de idade");
+};*/
+
+while (count <= 5){
+    console.log(count);
+    count++; //count = count + 1;
+};
+
+for(count2 = 0; count2 <= 5; count2++) {
+    console.log(count2.toString());
+};
+
+console.log(d); //Imprime a data sem formatação
+console.log(d.getDate()); //Imprime o dia
+console.log(d.getMonth()+1); //Imprime o mês (o "+1" é pq elesempre começa pelo 0)
+console.log(d.getMinutes()); //Imprime os minutos
+console.log(d.getHours()); //Imprime as horas
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
