@@ -1,11 +1,13 @@
 //Aula 01
 //Variáveis
+/*
 var nome = "Matheus Michelis";
 var idade = 26;
 var idade2 = 10;
 var frase = "Japão é o melhor time do mundo"
 var n1 = 5;
 var n2 = 7;
+*/
 
 /*
 Comentário de multiplas linhas
@@ -20,6 +22,7 @@ alert(idade + idade2);
 */
 
 //Scripts - Console
+/*
 console.log(nome);
 console.log(idade + idade2);
 console.log(frase);
@@ -29,16 +32,20 @@ console.log(frase.toUpperCase());
 console.log(frase.replace("Japão", "Brasil").toUpperCase());
 console.log(frase.replace("Japão", "Brasil").toLowerCase());
 console.log(n1 * n2);
+*/
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
 //Aula 02
 //Variáveis
+/*
 var lista = ["Maçã", "Pêra", "Laranja"]; //Cria uma array
 var fruta = {nome: "Maçã", cor: "Vermelha"}; //Cria um dicionário
 var frutas = [{nome: "Maçã", cor: "Vermelha"}, {nome:"Laranja", cor: "Laranja"}, {nome: "Pêra", cor: "Verde"}]; //Cria uma lista de dicionários
+*/
 
 //Script
+/*
 console.log(lista); //Mostra a array no console
 console.log(lista[1]);
 lista.push("Uva"); //Adicionar um elemento no final da lista
@@ -54,23 +61,26 @@ console.log(lista.join(" | ")); //Transforma a array em uma string e separa os e
 console.log(fruta); //Imprime no console o elemento
 console.log(fruta.nome); //Imprime o atributo "nome" da variável "fruta"
 console.log(frutas[0].nome); //Imprime o elemento "nome" do primeiro elemento da array "frutas"
+*/
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 
 //Aula 03
 //Variáveis
-//var idade = 18;
-//var idade = prompt("Qual sua idade: ");
+/*
+var idade = 18;
+var idade = prompt("Qual sua idade: ");
 var count = 0;
 var count2;
 var d = new Date();
+*/
 
 //Scripts
 /*if (idade >= 18) {
     alert("Maior de idade"); 
 } else {
     alert("Menor de idade");
-};*/
+};
 
 while (count <= 5){
     console.log(count);
@@ -86,5 +96,40 @@ console.log(d.getDate()); //Imprime o dia
 console.log(d.getMonth()+1); //Imprime o mês (o "+1" é pq elesempre começa pelo 0)
 console.log(d.getMinutes()); //Imprime os minutos
 console.log(d.getHours()); //Imprime as horas
+*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+//Aula 04
+//Variáveis
+/*
+var m1;
+var m2;
+
+//Scripts
+function soma(m1, m2) {
+    return m1 + m2;
+};
+
+console.log("Resultado da soma de 5 + 10: " + soma(5, 10));
+
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome);
+};
+
+console.log(setReplace("Vai Japão", "Japão", "Brasil"));
+
+function validarIdade(idade) {
+    var validar;
+    if (idade >= 18) {
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+};
+var idade = prompt("Qual a sua idade?");
+console.log(validarIdade(idade));
+*/
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
