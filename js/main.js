@@ -133,7 +133,7 @@ console.log(validarIdade(idade));
 */
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
-
+/*
 //Aula 05
 //Variáveis
 
@@ -167,3 +167,13 @@ function load() {
 function change(elemento) {
     console.log(elemento.value);
 }
+*/
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+//Desafios Javascript
+
+let line = gets().split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+let total = A + B; // Altere o valor da variável com o cálculo esperado
+console.log("X = " + total);
